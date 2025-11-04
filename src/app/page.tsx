@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
@@ -16,7 +16,7 @@ import { Award, ChefHat, Crown, Gift, Heart, HelpCircle, Leaf, MapPin, MessageSq
 export default function Home() {
   return (
     <ThemeProvider
-      defaultButtonVariant="slide-background"
+      defaultButtonVariant="text-stagger"
       defaultTextAnimation="entrance-slide"
       borderRadius="pill"
     >
