@@ -19,12 +19,6 @@ export default function Home() {
       defaultButtonVariant="text-stagger"
       defaultTextAnimation="entrance-slide"
       borderRadius="pill"
-      contentWidth="full"
-      sizing="standard"
-      background="default"
-      cardStyle="solid"
-      primaryButtonStyle="solid"
-      secondaryButtonStyle="outline"
     >
       <div id="nav" data-section="nav">
         <NavbarLayoutFloatingInline
